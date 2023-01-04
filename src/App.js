@@ -1,4 +1,5 @@
 import Header from "./components/Header"
+import FeedbackItem from "./components/FeedbackItem"
 function App() {
     // const title = 'Blog Post'
     // const body = 'This is my blog post'
@@ -8,7 +9,7 @@ function App() {
         <>
             <Header />
             <div className="container">
-                <h1>My App</h1>
+                <FeedbackItem />
             </div>
         </>
     )
